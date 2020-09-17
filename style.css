@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
+
+#navbar {
+  background: #D8E7E9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.5s;
+  padding: 1em;
+}
+
+#navbar img {
+  width:7%;
+  float: left;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #885A89;
+  text-decoration: none;
+  margin: 2em 3em;
+  font-size: 16px;
+  
+}
+
+h1 {
+  font-weight: 600;
+  font-family: 'Parisienne', cursive;
+  color: #885A89;
+  text-align: center;
+  font-size: 3em;
+}
+
+/*-----Qui suis-je?-----*/
+
+.content1 {
+  padding: 10em;
+  text-align: justify;
+  background: #D8E7E9;
+}
+.content2 {
+  text-align: justify;
+}
+
+p {
+  color: grey;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+p.bold {
+  font-weight: bold;
+  text-align: center;
+}
+
+p.center {
+  text-align: center;
+}
+
+
+/*-----Contact-----*/
