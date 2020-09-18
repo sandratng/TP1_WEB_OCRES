@@ -26,7 +26,7 @@ html {
   float: left;
 }
 
-#navbar a {
+.nav {
   float: right;
   display: block;
   font-family: "Montserrat", sans-serif;
