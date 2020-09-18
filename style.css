@@ -18,7 +18,8 @@ html {
   width: 100%;
   display: block;
   transition: top 0.5s;
-  padding: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
 }
 
 #navbar img {
@@ -33,8 +34,9 @@ html {
   font-weight: 400;
   color: #885a89;
   text-decoration: none;
-  margin: 2em 3em;
+  margin: 1em 3em;
   font-size: 16px;
+  padding:1em;
 }
 
 h1 {
@@ -50,7 +52,7 @@ h2 {
   font-weight: 900;
   color: #885a89;
   text-align: center;
-  font-size: 40px;
+  font-size: 36px;
 }
 
 h3 {
@@ -59,6 +61,11 @@ h3 {
   color: #9b679c;
   text-align: center;
   font-size: 30px;
+}
+
+.music {
+  text-align: center;
+  float:right;
 }
 
 .center {
@@ -71,21 +78,21 @@ h3 {
 
 .zoom {
   padding: 50px;
-  transition: transform .2s; /* Animation */
-  width: 50%;
+  transition: transform .2s;
+  width: 60%;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
 }
 
 .zoom:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1);
 }
 
 /*-----Qui suis-je?-----*/
 
 .content1 {
-  padding: 8em;
+  padding: 10em;
   text-align: justify;
   background: #d8e7e9;
 }
