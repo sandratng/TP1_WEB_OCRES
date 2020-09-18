@@ -12,7 +12,7 @@ html {
 }
 
 #navbar {
-  background: #D8E7E9;
+  background: #d8e7e9;
   position: fixed;
   top: 0;
   width: 100%;
@@ -22,7 +22,7 @@ html {
 }
 
 #navbar img {
-  width:7%;
+  width: 7%;
   float: left;
 }
 
@@ -31,37 +31,74 @@ html {
   display: block;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #885A89;
+  color: #885a89;
   text-decoration: none;
   margin: 2em 3em;
   font-size: 16px;
-  
 }
 
 h1 {
   font-weight: 600;
-  font-family: 'Parisienne', cursive;
-  color: #885A89;
+  font-family: "Parisienne", cursive;
+  color: #885a89;
   text-align: center;
   font-size: 3em;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #885a89;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #9b679c;
+  text-align: center;
+  font-size: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 3em;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 /*-----Qui suis-je?-----*/
 
-.content1{
-  padding: 10em;
+.content1 {
+  padding: 8em;
   text-align: justify;
-  background: #D8E7E9;
+  background: #d8e7e9;
 }
 .content2 {
-  padding: 10em;
+  padding: 6em;
   text-align: justify;
 }
 
-p {
+p,
+td {
   color: grey;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 p.bold {
@@ -77,27 +114,43 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5px;
-  background: #C9E2E8;
+  background: #c9e2e8;
   color: white;
 }
 
-.footer-list a{
+.footer-list a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #885A89;
-  text-decoration: none!important;
+  color: #885a89;
+  text-decoration: none !important;
   margin: 2em 3em;
   font-size: 14px;
-  list-style:none;
-  
+  list-style: none;
 }
 
+table {
+  border-collapse: collapse;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 5em;
+}
+
+th,
+td {
+  text-align: justify;
+  padding: 8px;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
 
 /*-----Contact-----*/
 
-
 /* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -113,8 +166,8 @@ label {
 }
 
 /* Style the submit button */
-input[type=submit] {
-  background-color: #885A89;
+input[type="submit"] {
+  background-color: #885a89;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -153,7 +206,9 @@ input[type=submit] {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
