@@ -77,12 +77,13 @@ h3 {
 }
 
 .zoom {
-  padding: 50px;
+  padding: 20px;
   transition: transform .2s;
   width: 60%;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+  text-align: center;
 }
 
 .zoom:hover {
@@ -99,6 +100,7 @@ h3 {
 .content2 {
   padding: 6em;
   text-align: justify;
+  margin-bottom: -5em;
 }
 
 p,
@@ -145,8 +147,6 @@ table {
 
 th,
 td {
-  text-align: justify;
-  padding: 8px;
   border: none;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
