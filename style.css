@@ -30,6 +30,7 @@ html {
 #navbar img {
   width: 7%;
   float: left;
+  margin-bottom:1em;
 }
 
 .nav {
@@ -224,4 +225,19 @@ input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
+}
+
+/*-----Experiences-----*/
+
+.tableExp {
+  border-collapse: collapse;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableExp2 {
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
 }
