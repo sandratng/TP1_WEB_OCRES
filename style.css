@@ -241,3 +241,12 @@ input[type="submit"] {
   margin: 0 auto;
   text-align: center;
 }
+
+.langues {
+  padding: 20px;
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
