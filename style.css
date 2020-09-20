@@ -69,6 +69,10 @@ h3 {
   font-size: 30px;
 }
 
+h4 {
+  text-align:center;
+}
+
 .music {
   text-align: center;
   float:right;
@@ -229,15 +233,11 @@ input[type="submit"] {
 
 /*-----Experiences-----*/
 
-.tableExp {
-  border-collapse: collapse;
-  border: none;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tableExp2 {
-  border: none;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 300;
+.photosExp {
+  padding: 20px;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
 }
